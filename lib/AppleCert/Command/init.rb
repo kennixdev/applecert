@@ -1,6 +1,6 @@
 
 require 'thor'
-
+require File.expand_path('../../Core/Provision/provisioning',__FILE__)
 module AppleCert
   class Command
     class Init < Thor
@@ -14,7 +14,7 @@ module AppleCert
           man.showInfo(options[:f])
         elsif !options[:d].nil?
           man.removefile(options[:d])
-        elsif !options[:de]
+        elsif !options[:de].nil?
           man.removeExpired
         else
           man.list

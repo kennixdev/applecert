@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a61240-fd0a-4572-8408-07c5d7f8260a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/AppleCert/Command/init.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/AppleCert/provisioning.rb" afterPath="$PROJECT_DIR$/lib/AppleCert/Core/Provision/provisioning.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AppleCert.iml" afterPath="$PROJECT_DIR$/.idea/AppleCert.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppleCert.gemspec" afterPath="$PROJECT_DIR$/AppleCert.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/applecert-0.1.0.gem" afterPath="$PROJECT_DIR$/applecert-0.1.0.gem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AppleCert.rb" afterPath="$PROJECT_DIR$/lib/AppleCert.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AppleCert/Command/init.rb" afterPath="$PROJECT_DIR$/lib/AppleCert/Command/init.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,15 +15,16 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AppleCert@provisioning.coverage" NAME="provisioning Coverage Results" MODIFIED="1499850917303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/AppleCert/Core/Provision" MODULE_NAME="AppleCert" />
     <SUITE FILE_PATH="coverage/AppleCert@IRB_console__AppleCert.coverage" NAME="IRB console: AppleCert Coverage Results" MODIFIED="1499833267153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="AppleCert" />
+    <SUITE FILE_PATH="coverage/AppleCert@init.coverage" NAME="init Coverage Results" MODIFIED="1499851864622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/AppleCert/Command" MODULE_NAME="AppleCert" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppleCert.gemspec" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppleCert.gemspec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppleCert.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="114">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -74,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/AppleCert/Command/init.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -97,7 +93,7 @@
       <file leaf-file-name="provisioning.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/AppleCert/Core/Provision/provisioning.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="3090">
               <caret line="206" column="8" lean-forward="false" selection-start-line="205" selection-start-column="2" selection-end-line="206" selection-end-column="8" />
               <folding />
             </state>
@@ -165,8 +161,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/AppleCert.rb" />
         <option value="$PROJECT_DIR$/lib/AppleCert/Core/Provision/provisioning.rb" />
-        <option value="$PROJECT_DIR$/lib/AppleCert/Command/init.rb" />
         <option value="$PROJECT_DIR$/AppleCert.gemspec" />
+        <option value="$PROJECT_DIR$/lib/AppleCert/Command/init.rb" />
       </list>
     </option>
   </component>
@@ -318,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.provisioning">
+  <component name="RunManager" selected="Ruby.init">
     <configuration default="false" name="IRB console: AppleCert" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="AppleCert" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -355,6 +351,25 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/AppleCert/Core/Provision/provisioning.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="init" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AppleCert" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib/AppleCert/Command" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/AppleCert/Command/init.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -521,14 +536,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console: AppleCert" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.provisioning" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.init" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.provisioning" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: AppleCert" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.init" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.provisioning" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: AppleCert" />
       </list>
     </recent_temporary>
   </component>
@@ -549,12 +566,12 @@
       <workItem from="1495163756625" duration="1927000" />
       <workItem from="1499830889258" duration="2230000" />
       <workItem from="1499833190235" duration="208000" />
-      <workItem from="1499833412894" duration="12785000" />
+      <workItem from="1499833412894" duration="13222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17150000" />
+    <option name="totallyTimeSpent" value="17587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="31" width="1440" height="873" extended-state="0" />
@@ -564,7 +581,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44819278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44819278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -930,9 +947,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AppleCert.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/AppleCert/Core/Provision/provisioning.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="3090">
           <caret line="206" column="8" lean-forward="false" selection-start-line="205" selection-start-column="2" selection-end-line="206" selection-end-column="8" />
           <folding />
         </state>
@@ -940,16 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/AppleCert/Command/init.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppleCert.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="220">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
