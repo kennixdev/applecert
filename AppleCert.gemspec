@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kennix"]
   spec.email         = ["kennixdev@gmail.com"]
 
-  spec.summary       = %q{for manager cert and provisioning in mac}
-  spec.description   = %q{for manager cert and provisioning in mac}
+  spec.summary       = %q{for manage apple cert and provisioing}
+  spec.description   = %q{mac tools for manage apple cert and provisioing}
   spec.homepage      = "https://github.com/kennixdev/applecert"
   spec.license       = "MIT"
 
@@ -22,7 +22,8 @@ Gem::Specification.new do |spec|
   #   raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   # end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+#  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.files         = Dir['lib/*'] + Dir['exe/*'] + Dir['lib/**/*']
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
@@ -30,4 +31,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+
+  spec.add_dependency "thor", "~> 0.19.4"
+  spec.add_dependency "colorize", "~> 0.8.1"
+  spec.add_dependency "nokogiri", "~> 1.7"
+  spec.add_dependency "plist", "~> 3.1"
+  spec.add_dependency "openssl", "~> 2.0"
 end
